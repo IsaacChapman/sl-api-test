@@ -1,5 +1,6 @@
 tests:
   - /bin/true
   - env | grep TDDIUM | sort
+  - date && sleep 120 && date
 test_pattern:
   - "none"

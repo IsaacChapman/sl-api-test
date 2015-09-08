@@ -1,0 +1,5 @@
+tests:
+  - /bin/true
+  - env | grep TDDIUM | sort
+test_pattern:
+  - "none"
